@@ -7,9 +7,9 @@ class TestCalc(unittest.TestCase):
         result = calc.add(1,1)
         self.assertEqual(result,2)
 
-    def testAddsa(self):
-        result = calc.add(1,1)
-        self.assertEqual(result,2)
-    def testAdds(self):
-        result = calc.add(1,1)
-        self.assertEqual(result,2)
+    def testSub(self):
+        result = calc.sub(1,1)
+        self.assertEqual(result,0)
+    def testMulti(self):
+        result = calc.multi(2,5)
+        self.assertEqual(result,10)
